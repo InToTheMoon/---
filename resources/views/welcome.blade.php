@@ -1,4 +1,4 @@
-{{-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -129,17 +129,4 @@
             </div>
         </div>
     </body>
-</html> --}}
-
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-    <div id="example"></div>
-    <script src="{{asset('js/app.js')}}" defer></script>
-</body>
 </html>
